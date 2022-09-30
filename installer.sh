@@ -7,6 +7,8 @@ pip3 install -r requirements.txt
 python3 -m nuitka --clang dumptcp.py # Compiling the main.py file.
 sleep 5
 rm -rf dumptcp.build
+sudo rm dumptcp.py
+sudo rm requirements.txt
 mv dumptcp.bin dumptcp
 clear
 echo "Complied"
