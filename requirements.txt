@@ -1,0 +1,4 @@
+nuitka
+scapy
+argparse
+termcolor
